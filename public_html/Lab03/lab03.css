@@ -1,0 +1,26 @@
+* {box-sizing: border-box;}
+
+[class*="col-"] {
+
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.row::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+body {
+    background-color: #a2d2ff; 
+}
+
+.paragraph-box1, .paragraph-box2 {
+    background: #e0ddd1;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    color: #0e1111; 
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5rem;
+    max-width: 85%;
+}

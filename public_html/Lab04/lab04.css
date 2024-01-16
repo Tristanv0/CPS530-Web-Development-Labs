@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+#navbar.row {
+    text-align: center;
+    background: linear-gradient(to bottom, #E4CDA7, #FFFFFF);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navbar-heading {
+    margin: 0;
+    color: #747474;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#info.part1, #textbox.part2, #bookmarks.part3 {
+    background: linear-gradient(to bottom, black, #5b5b5b);
+    padding: 5px 10px;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    border-radius: 25px;
+    color: #dddddd; 
+    display: inline-block;
+    justify-content: center;
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+}
+
+#part1.row, #part2.row, #part3.row {
+    text-align: center;
+}
+
+#output1 {
+    margin: 10px auto;
+    background: #e0ddd1;
+    padding: 10px 20px; 
+    border-radius: 20px;
+    color: #0e1111; 
+    display: none;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1rem;
+    max-width: 50%;
+}
+
+.unsafe {
+    background-color: #4CBB17;
+}
+
+.safe {
+    background-color: #FF0000;
+}
+
+.link, #characters, #charCount, #letters, #letterCount {
+    font-size: 20px;
+    font-family: Verdana, Arial, sans-serif;
+}
